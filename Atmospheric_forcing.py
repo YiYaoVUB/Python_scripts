@@ -13,7 +13,7 @@ str_input_Qair_raw = 'D:\Forcings\\' + str_scenario + '_Qair\\' + str_scenario +
 str_input_tas_raw = 'D:\Forcings\\' + str_scenario + '_tas\\' + str_scenario + '_tas_'
 str_input_uas_raw = 'D:\Forcings\\' + str_scenario + '_uas\\' + str_scenario + '_uas_'
 str_input_vas_raw = 'D:\Forcings\\' + str_scenario + '_vas\\' + str_scenario + '_vas_'
-
+# git test
 file_obj = nc.Dataset('D:\Forcings\\' + str_scenario + '_lwd\\' + str_scenario + '_lwd_063.nc')
 
 lon = file_obj.variables['lon']
